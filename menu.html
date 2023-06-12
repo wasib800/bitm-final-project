@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" type="image/x-icon" href="/utphol-image/nav-icon.png">
+    <script src="https://kit.fontawesome.com/9daff959c5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .right {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        body {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <!--For main navbar-->
+    <nav class="navbar navbar-expand-lg bg-info navbar-dark ">
+        <div class="container">
+            <!--For logo-->
+            <a href="#" class="navbar-brand text-danger"> <img src="/utphol-image/nav-icon.png" alt="logo" width="50px" height="45px">
+                <strong style="padding-top: 18px;">Tomato</strong> </a>
+            <!--For Hamburger Icon.#navmenu is the trigger data button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--For Collapse menu. The id navmenu is the target-->
+            <div class="right">
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link">
+                                <h5>Home</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">
+                                <h5>Menu</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="recipes.html" class="nav-link">
+                                <h5>Recipes</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ourstory.html" class="nav-link">
+                                <h5>Our story</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <h5>Contact</h5>
+                            </a>
+                        </li>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i style="font-size: 18px; color: white;"
+                                    class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i style="font-size: 18px; color: white;"
+                                    class="bi bi-whatsapp"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i style="font-size: 18px; color: white;"
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i style="font-size: 18px; color: white;"
+                                    class="bi bi-twitter"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <br>
+    <!--Hero banner-->
+    <section class="bg-warning text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-contant-between">
+                <div>
+                    <h1>Enjoy<span class="text-primary"> Our Delicious Food</span></h1>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Magni, dignissimos!</p>
+                    <button class="btn btn-success btn-lg">Reservation now</button>
+                </div>
+                <img src="/utphol-image/banner.webp"
+                    class="img-fluid w-50 d-none d-sm-block" alt="windos wallpaper">
+            </div>
+        </div>
+    </section>
+    <!--For card section-->
+    <br>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md text-center">
+                    <div class="card bg-primary text-dark">
+                        <div class="card-body ">
+
+                            <div class="h1">
+                                <img src="/utphol-image/breakfast.webp" alt="food card"
+                                    width="320px" height="300px">
+                            </div>
+
+                            <h3 class="card-titel text-light">
+                                BREAKFAST
+                            </h3>
+
+                            <p class="card-text text-secondary-sublet">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nesciunt labore, qui nostrum porro deleniti totam
+                                doloremque eius? Fugiat, dolor sed?
+                            </p>
+                            <a href="breakfast.html" class="btn btn-info text-danger"><b>Package</b></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="col-md text-center">
+                    <div class="card bg-primary text-dark">
+                        <div class="card-body ">
+
+                            <div class="h1">
+                                <img src="/utphol-image/lunch.webp"
+                                    alt="food card" width="320px" height="300px">
+                            </div>
+
+                            <h3 class="card-titel text-light">
+                                LUNCH
+                            </h3>
+
+                            <p class="card-text text-secondary-sublet">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nesciunt labore, qui nostrum porro deleniti totam
+                                doloremque eius? Fugiat, dolor sed?
+                            </p>
+                            <a href="lunch.html" class="btn btn-success">Items List</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md text-center">
+                    <div class="card bg-primary text-dark">
+                        <div class="card-body ">
+                            <div class="h1">
+                                <img src="/utphol-image/dinner.webp" alt="card" width="320px"
+                                    height="300px">
+                            </div>
+
+                            <h3 class="card-titel text-light">
+                                DINNER
+                            </h3>
+
+                            <p class="card-text text-secondary-sublet">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nesciunt labore, qui nostrum porro deleniti totam
+                                doloremque eius? Fugiat, dolor sed?
+                            </p>
+                            <a href="dinner.html" class="btn btn-success">Items List</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--for sign up-->
+    <br>
+    <section class="bg-warning text-primary p-3">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0"> <strong>Sign up for our Secret Recipe (pdf)</strong></h3>
+                <div class="input-group newsletter-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn btn-success btn-lg" type="button">Register</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <br>
+    <section id="trainers" class="p-5 bg-success">
+        <div class="container">
+            <h1 class="text-center text-white">Our Celebrity Chefs</h1>
+        </div>
+        <p class="lead text-center text-white mb-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, culpa.
+        </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-info">
+                    <div class="card-body text-center">
+                        <img src="/utphol-image/chef1.jpg" alt="" class="rounded-circle mb-3">
+                        <h4 class="card-title">John Smith</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus dolorum atque
+                            vero necessitatibus. Accusantium.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-info">
+                    <div class="card-body text-center">
+                        <img src="/utphol-image/chef-2.jpg" alt="" class="rounded-circle mb-3">
+                        <h4 class="card-title">Sarah Connor</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus dolorum atque
+                            vero necessitatibus. Accusantium.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-info">
+                    <div class="card-body text-center">
+                        <img src="/utphol-image/chef1.jpg" alt="" class="rounded-circle mb-3">
+                        <h4 class="card-title">Susan Rook</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus dolorum atque
+                            vero necessitatibus. Accusantium.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-info">
+                    <div class="card-body text-center">
+                        <img src="/utphol-image/chef-2.jpg" alt="" class="rounded-circle mb-3">
+                        <h4 class="card-title">John Dykes</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus dolorum atque
+                            vero necessitatibus. Accusantium.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- final footer section -->
+ <footer>
+    <section>
+        <div class="container-fluid">
+            <div class="row bg-dark py-5 text-white">
+                <div class="col-md-4 ">
+                    <h1 class="text-warning">ABOUT US</h1>
+                    <P>Duis leo justo, condimentum at purus eu,Aenean sed dolor sem. Etiam massa libero, auctor vitae
+                        egestas et, accumsan quis nunc.Duis leo justo, condimentum at purus eu, posuere pretium tellus.
+                    <P>Duis leo justo, condimentum at purus eu,Aenean sed dolor sem. Etiam massa libero, auctor vitae
+                        egestas et, accumsan quis nunc.Duis leo justo, condimentum at purus eu, posuere pretium tellus.
+                    </P>
+                    <a class="text-decoration-none" href="http://">Read me <i class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+                <div class="col-md-4 ">
+                    <h1 class="text-warning">RECENT POST</h1>
+
+                    <div class="col py-2 ">
+                        <img src="/images/footer/thumb8.png" alt="" srcset="">
+                        <a href="http://127.0.0.1:5500/css/practice.html">Hand picked ingredients for our best
+                            </a>
+                    </div>
+                    <div class="col ">
+                        <img  src="/images/footer/thumb9.png" alt="" srcset="">
+                        <a href="http://127.0.0.1:5500/css/practice.html">Hand picked ingredients for our best
+                            </a>
+                    </div>
+                    <div class="col py-2">
+                        <img src="/images/footer/thumb8.png" alt="" srcset="">
+                        <a href="http://127.0.0.1:5500/css/practice.html">Hand picked ingredients for our best
+                            </a>
+                    </div>
+                    <div class="col">
+                        <img src="/images/footer/thumb9.png" alt="" srcset="">
+                        <a href="http://127.0.0.1:5500/css/recipes.html">Hand picked ingredients for our best
+                            </a>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <h1 class="text-warning">REACH US</h1>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://google.com"> <i class="fa-brands fa-google"></i></a>
+                    <a href="http://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <P><i class="fa-solid fa-location-dot text-danger"></i> 28 Seventh Avenue, Neew York, 10014.</P>
+                    <P><i class="fa-solid fa-phone text-danger"></i> Phone: (415) 124-5678.</P>
+                    <P><i class="fa-solid fa-phone text-danger"></i> Phone: (415) 124-5679.</P>
+                    <P> <i class="fa-solid fa-envelope text-danger"></i> support@restaurant.com.</P>
+                   
+                </div>
+                <p class="text-center fw-bold p-3"> @2015.Tomato.All rights reserved. Designed with  by utphol-das</p>
+            </div>
+        </div>
+    </section>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+
+
+
+.banner-img-1 {
+    background-image: url("/images/background/bg-8.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.banner-img-2 {
+    background-image: url("/images/background/bg-4.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-img-3 {
+    background-image: url("/images/background/bg-7.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* .title{
+    background-image: url(/intro.jpg);
+    height: 80vh;
+    background-size: cover;
+} */
+
+/* #tanvir{
+    border: 10px solid rgb(34, 0, 255);
+    margin: 10px;
+} */
+/* #child-3{
+    background-image: url(/intro.jpg);
+    height: 80vh;
+}
+.trusted-quote{
+    background-image: url(/bg5.png);
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+} */
